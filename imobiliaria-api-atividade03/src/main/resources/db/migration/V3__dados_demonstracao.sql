@@ -1,0 +1,16 @@
+-- Dados fictícios para demonstrar paginação e pesquisa. IDs são gerados pelo banco.
+INSERT INTO clientes(nome_cliente,cpf,telefone,email,dt_nascimento) VALUES
+('Ana Exemplo','11144477735','98990000001','ana@example.com','1995-03-12'),
+('Bruno Exemplo','12345678909','98990000002','bruno@example.com','1990-07-20');
+INSERT INTO imoveis(tipo_imovel,endereco,cep,dormitorios,banheiros,suites,metragem,valor_aluguel_sug,cidade,valor_diaria,obs) VALUES ('Apartamento','Rua Demonstração, 1','65000000',2,1,0,60,3600,'São Luís',180,'Dado fictício para atividade 2');
+INSERT INTO imoveis(tipo_imovel,endereco,cep,dormitorios,banheiros,suites,metragem,valor_aluguel_sug,cidade,valor_diaria,obs) VALUES ('Casa','Rua Demonstração, 2','65000000',3,1,0,60,5000,'São Luís',250,'Dado fictício para atividade 2');
+INSERT INTO imoveis(tipo_imovel,endereco,cep,dormitorios,banheiros,suites,metragem,valor_aluguel_sug,cidade,valor_diaria,obs) VALUES ('Kitnet','Rua Demonstração, 3','65000000',1,1,0,60,1800,'Imperatriz',90,'Dado fictício para atividade 2');
+INSERT INTO imoveis(tipo_imovel,endereco,cep,dormitorios,banheiros,suites,metragem,valor_aluguel_sug,cidade,valor_diaria,obs) VALUES ('Apartamento','Rua Demonstração, 4','65000000',2,1,0,60,2800,'Imperatriz',140,'Dado fictício para atividade 2');
+INSERT INTO imoveis(tipo_imovel,endereco,cep,dormitorios,banheiros,suites,metragem,valor_aluguel_sug,cidade,valor_diaria,obs) VALUES ('Casa','Rua Demonstração, 5','65000000',2,1,0,60,4400,'Barreirinhas',220,'Dado fictício para atividade 2');
+INSERT INTO imoveis(tipo_imovel,endereco,cep,dormitorios,banheiros,suites,metragem,valor_aluguel_sug,cidade,valor_diaria,obs) VALUES ('Apartamento','Rua Demonstração, 6','65000000',2,1,0,60,3400,'São José de Ribamar',170,'Dado fictício para atividade 2');
+INSERT INTO imoveis(tipo_imovel,endereco,cep,dormitorios,banheiros,suites,metragem,valor_aluguel_sug,cidade,valor_diaria,obs) VALUES ('Casa','Rua Demonstração, 7','65000000',4,1,0,60,7000,'São Luís',350,'Dado fictício para atividade 2');
+INSERT INTO imoveis(tipo_imovel,endereco,cep,dormitorios,banheiros,suites,metragem,valor_aluguel_sug,cidade,valor_diaria,obs) VALUES ('Kitnet','Rua Demonstração, 8','65000000',0,1,0,60,1500,'São Luís',75,'Dado fictício para atividade 2');
+INSERT INTO imoveis(tipo_imovel,endereco,cep,dormitorios,banheiros,suites,metragem,valor_aluguel_sug,cidade,valor_diaria,obs) VALUES ('Casa','Rua Demonstração, 9','65000000',3,1,0,60,4000,'Raposa',200,'Dado fictício para atividade 2');
+INSERT INTO imoveis(tipo_imovel,endereco,cep,dormitorios,banheiros,suites,metragem,valor_aluguel_sug,cidade,valor_diaria,obs) VALUES ('Apartamento','Rua Demonstração, 10','65000000',1,1,0,60,2600,'Barreirinhas',130,'Dado fictício para atividade 2');
+INSERT INTO imoveis(tipo_imovel,endereco,cep,dormitorios,banheiros,suites,metragem,valor_aluguel_sug,cidade,valor_diaria,obs) VALUES ('Casa','Rua Demonstração, 11','65000000',2,1,0,60,3200,'Paço do Lumiar',160,'Dado fictício para atividade 2');
+INSERT INTO imoveis(tipo_imovel,endereco,cep,dormitorios,banheiros,suites,metragem,valor_aluguel_sug,cidade,valor_diaria,obs) VALUES ('Apartamento','Rua Demonstração, 12','65000000',3,1,0,60,4600,'São Luís',230,'Dado fictício para atividade 2');
